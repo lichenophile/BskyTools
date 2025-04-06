@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "BskyTools (Package)": {
+      "commandName": "MsixPackage",
+      "doNotLaunchApp": true
+    },
+    "BskyTools (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
