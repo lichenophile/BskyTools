@@ -18,10 +18,9 @@ internal sealed partial class BskyToolsPage : DynamicListPage
     public BskyToolsPage()
     {
         Icon = BlueskyIcon;
-        Title = "Bsky Toolbox"; //Displays bottom left of list
-        Name = "Bsky Tools"; //Displays as main name, (and default command name?)
-        PlaceholderText = "No input needed. Will user handle from clipboard"; // Search bar ghost text
-        ShowDetails = true;
+        Title = "Bluesky Toolbox"; //Displays bottom left of list
+        Name = "Bsky Toolbox"; //Displays as main name
+        PlaceholderText = "No input needed. Runnning a command will extract valid handles from clipboard"; // Search bar ghost text
 
         _fetchDidCommand = new FetchDidCommand();
         _fetchDidContextMenuItem = new CommandContextItem(_fetchDidCommand);
